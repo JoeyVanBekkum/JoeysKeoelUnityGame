@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 0
+    path: Assets/myscene.unity
+    guid: faa403b07b22ab1499d10deb52fc3212
+  - enabled: 1
+    path: Assets/VRPproject_Joey.unity
+    guid: 40340f3c90f5b1f4f9bdf54e76d9f2b8
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f04f34d5afdae9e47b547867a507470c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8a8d4fc405760cf4ebd75569658d3dfa, type: 2}
+  m_UseUCBPForAssetBundles: 0
