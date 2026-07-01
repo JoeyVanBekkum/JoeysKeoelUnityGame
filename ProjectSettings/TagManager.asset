@@ -7,6 +7,9 @@ TagManager:
   - Key
   - Target
   - Zombie
+  - FxTemporaire
+  - Boss
+  - monster
   layers:
   - Default
   - TransparentFX

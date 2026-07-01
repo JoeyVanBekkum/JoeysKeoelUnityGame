@@ -25,7 +25,7 @@ public class ZombieNPC : MonoBehaviour
             return;
         }
 
-        health -= damage;
+            health -= damage;
 
         if (health <= 0)
         {

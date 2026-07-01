@@ -6,11 +6,11 @@ public class ClubDamage : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        ZombieHealth zombie = collision.gameObject.GetComponent<ZombieHealth>();
+        BossHealth monster = collision.gameObject.GetComponent<BossHealth>();
 
-        if (zombie != null)
+        if (monster != null)
         {
-            zombie.TakeDamage(damage);
+            monster.TakeDamage(damage);
         }
     }
 }
