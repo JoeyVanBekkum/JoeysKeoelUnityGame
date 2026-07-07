@@ -7,10 +7,12 @@ public class LevelTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Player entered gate → loading next level");
+        Debug.Log("Trigger door: " + other.name);
+        Debug.Log("Root: " + other.transform.root.name);
 
+        if (other.transform.root.name == "XR Origin (XR Rig)")
+        {
+            Debug.Log("XR Origin gevonden, level laden");
             SceneManager.LoadScene(nextLevelName);
         }
     }

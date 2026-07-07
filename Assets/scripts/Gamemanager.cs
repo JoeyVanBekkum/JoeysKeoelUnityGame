@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public GameObject victoryCanvas;
 
+    [Header("Victory Settings")]
+    public GameObject bossObject;
+
     private void Awake()
     {
         Instance = this;
@@ -19,10 +22,25 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void BossDefeated()
+    public void BossDefeated(GameObject defeatedObject)
     {
-        victoryCanvas.SetActive(true);
-        Time.timeScale = 0f;
+        if (defeatedObject == bossObject)
+        {
+            Debug.Log("Victory scherm openen");
+
+            victoryCanvas.SetActive(true);
+            Time.timeScale = 0f;
+
+            Debug.Log("BossDefeated wordt uitgevoerd");
+
+        if (defeatedObject == bossObject)
+            {
+                Debug.Log("Juiste boss verslagen, canvas openen");
+
+                victoryCanvas.SetActive(true);
+                Time.timeScale = 0f;
+                }
+        }
     }
 
     public void RestartToFirstLevel()

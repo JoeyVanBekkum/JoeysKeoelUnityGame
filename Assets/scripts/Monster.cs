@@ -5,6 +5,9 @@ public class MonsterHealth : MonoBehaviour
     public int maxHealth = 100;
     private int currentHealth;
 
+    [Header("Boss Settings")]
+    public bool isBoss = false;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -14,7 +17,7 @@ public class MonsterHealth : MonoBehaviour
     {
         currentHealth -= damage;
 
-        Debug.Log("Monster HP: " + currentHealth);
+        Debug.Log(gameObject.name + " HP: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -22,9 +25,31 @@ public class MonsterHealth : MonoBehaviour
         }
     }
 
-    void Die()
+    private void Die()
     {
-        ZombieCounter.Instance.ZombieKilled();
+        if (isBoss)
+        {
+            Debug.Log("Boss verslagen!");
+
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.BossDefeated(gameObject);
+            }
+            else
+            {
+                Debug.LogError("Geen GameManager gevonden!");
+            }
+        }
+        else
+        {
+            Debug.Log("Zombie dood");
+
+            if (ZombieCounter.Instance != null)
+            {
+                ZombieCounter.Instance.ZombieKilled();
+            }
+        }
+
         Destroy(gameObject);
     }
 }

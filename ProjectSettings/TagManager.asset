@@ -10,6 +10,7 @@ TagManager:
   - FxTemporaire
   - Boss
   - monster
+  - boss
   layers:
   - Default
   - TransparentFX

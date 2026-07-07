@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/myscene.unity
     guid: faa403b07b22ab1499d10deb52fc3212
-  - enabled: 1
+  - enabled: 0
     path: Assets/VRPproject_Joey.unity
     guid: 40340f3c90f5b1f4f9bdf54e76d9f2b8
   - enabled: 1
