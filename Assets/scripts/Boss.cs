@@ -24,17 +24,6 @@ public class BossHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Boss dood!");
-
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.BossDefeated(gameObject);
-        }
-        else
-        {
-            Debug.LogError("Geen GameManager gevonden!");
-        }
-
         Destroy(gameObject);
     }
 }

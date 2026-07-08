@@ -19,23 +19,4 @@ public class ZombieAttack : MonoBehaviour
             player = playerObject.transform;
         }
     }
-
-    void Update()
-    {
-        if (player == null)
-            return;
-
-        float distance = Vector3.Distance(transform.position, player.position);
-
-        if (distance <= attackRange && Time.time >= nextAttackTime)
-        {
-            PlayerHealth health = player.GetComponent<PlayerHealth>();
-
-            if (health != null)
-            {
-                health.TakeDamage(damage);
-                nextAttackTime = Time.time + attackCooldown;
-            }
-        }
-    }
 }

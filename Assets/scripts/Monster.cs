@@ -27,20 +27,6 @@ public class MonsterHealth : MonoBehaviour
 
     private void Die()
     {
-        if (isBoss)
-        {
-            Debug.Log("Boss verslagen!");
-
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.BossDefeated(gameObject);
-            }
-            else
-            {
-                Debug.LogError("Geen GameManager gevonden!");
-            }
-        }
-        else
         {
             Debug.Log("Zombie dood");
 

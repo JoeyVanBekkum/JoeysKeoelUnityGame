@@ -11,21 +11,4 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         Debug.Log("Player HP: " + currentHealth);
     }
-
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
-        Debug.Log("Player HP: " + currentHealth);
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        GameManager.Instance.GameOver();
-    }
 }
