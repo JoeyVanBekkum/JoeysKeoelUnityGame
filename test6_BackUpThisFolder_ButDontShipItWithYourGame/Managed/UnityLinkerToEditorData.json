@@ -11,7 +11,8 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -19,7 +20,8 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -27,7 +29,8 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -77,21 +80,24 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -104,13 +110,18 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioSource",
-            "scenes": [],
+            "scenes": [
+              "Assets/VRPproject_Joey.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -140,7 +151,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -160,7 +171,8 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -180,7 +192,8 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -194,7 +207,8 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -226,7 +240,8 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -234,7 +249,8 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -248,7 +264,8 @@
           {
             "name": "LightProbes",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -262,7 +279,8 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -270,7 +288,7 @@
           {
             "name": "LineRenderer",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -284,7 +302,8 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -292,7 +311,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -300,7 +320,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -308,7 +329,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -316,7 +338,8 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -330,7 +353,8 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -338,7 +362,8 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -376,7 +401,8 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -390,7 +416,8 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -422,7 +449,8 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -436,7 +464,8 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -450,7 +479,7 @@
           {
             "name": "SortingGroup",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -458,7 +487,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -624,6 +654,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1010,26 +1046,50 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/VRPproject_Joey.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/VRPproject_Joey.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/VRPproject_Joey.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CharacterController",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1057,7 +1117,8 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1065,7 +1126,7 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1284,6 +1345,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1555,7 +1622,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1627,7 +1695,8 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1641,7 +1710,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Level2.unity"
+              "Assets/Level2.unity",
+              "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
             "icon": null

@@ -10,6 +10,11 @@ public class DoubleDoor : MonoBehaviour
     public float openAngle = 90f;
     public float openSpeed = 2f;
 
+    [Header("Audio")]
+    public AudioClip gateOpenSound;
+
+    private AudioSource audioSource;
+
     private Quaternion leftStartRot;
     private Quaternion rightStartRot;
 
@@ -20,6 +25,9 @@ public class DoubleDoor : MonoBehaviour
 
     void Start()
     {
+        // AudioSource ophalen
+        audioSource = GetComponent<AudioSource>();
+
         // Start rotaties van de hinges
         leftStartRot = leftHinge.rotation;
         rightStartRot = rightHinge.rotation;
@@ -29,24 +37,31 @@ public class DoubleDoor : MonoBehaviour
         rightTargetRot = rightStartRot * Quaternion.Euler(0, openAngle, 0);
     }
 
-    public void OpenGate()
+   public void OpenGate()
+{
+    Debug.Log("Dubbele deuren openen via hinges!");
+
+    if (!isOpening)
     {
-        Debug.Log("Dubbele deuren openen via hinges!");
+        if (gateOpenSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(gateOpenSound);
+        }
+
         isOpening = true;
     }
+}
 
     void Update()
     {
         if (!isOpening) return;
 
-        // Linker deur (via hinge)
         leftHinge.rotation = Quaternion.Slerp(
             leftHinge.rotation,
             leftTargetRot,
             Time.deltaTime * openSpeed
         );
 
-        // Rechter deur (via hinge)
         rightHinge.rotation = Quaternion.Slerp(
             rightHinge.rotation,
             rightTargetRot,

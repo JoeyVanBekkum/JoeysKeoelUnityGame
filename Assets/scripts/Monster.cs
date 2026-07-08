@@ -8,6 +8,9 @@ public class MonsterHealth : MonoBehaviour
     [Header("Boss Settings")]
     public bool isBoss = false;
 
+    [Header("Audio")]
+    public AudioClip bossDeathSound;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -27,9 +30,26 @@ public class MonsterHealth : MonoBehaviour
 
     private void Die()
     {
-        {
-            Debug.Log("Zombie dood");
+        Debug.Log(gameObject.name + " dood");
 
+        // Alleen voor de boss
+        if (isBoss)
+        {
+            // Speel het geluid af
+            if (bossDeathSound != null)
+            {
+                AudioSource.PlayClipAtPoint(bossDeathSound, transform.position);
+            }
+
+            // Laat het victory scherm zien
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.BossDefeated();
+            }
+        }
+        else
+        {
+            // Normale zombies tellen mee
             if (ZombieCounter.Instance != null)
             {
                 ZombieCounter.Instance.ZombieKilled();
