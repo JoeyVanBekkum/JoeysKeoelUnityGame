@@ -13,14 +13,15 @@ public class UnlockItem : MonoBehaviour
 
     public event Action OnUnlock;
 
-    private void OnCollisionEnter(Collision other) {
-        if (other.gameObject.tag == itemTag)
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag(itemTag))
         {
             unlocked = true;
             OnUnlock?.Invoke();
 
+            Destroy(other.gameObject); // vernietig de sleutel
         }
     }
-
 }
 

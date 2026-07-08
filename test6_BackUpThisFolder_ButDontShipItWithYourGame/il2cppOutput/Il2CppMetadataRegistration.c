@@ -25,7 +25,7 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	g_Il2CppGenericMethodFunctions,
 	37287,
 	g_Il2CppTypeTable,
-	144125,
+	144126,
 	g_Il2CppMethodSpecTable,
 	10188,
 	g_FieldOffsetTable,

@@ -80,6 +80,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -97,6 +98,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -151,6 +153,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -288,6 +291,7 @@
           {
             "name": "LineRenderer",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -479,6 +483,7 @@
           {
             "name": "SortingGroup",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -1089,6 +1094,7 @@
           {
             "name": "CharacterController",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,
@@ -1126,6 +1132,7 @@
           {
             "name": "SphereCollider",
             "scenes": [
+              "Assets/Level2.unity",
               "Assets/VRPproject_Joey.unity"
             ],
             "dependencyType": 0,

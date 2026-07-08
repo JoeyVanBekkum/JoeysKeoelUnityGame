@@ -830,6 +830,7 @@ struct CaptureCollection_t38405272BD6A6DA77CD51487FD39624C6E95CC93;
 struct CapturePass_tBD745B83E7D4AE9A6F35EE0760F1CCAC51B787EE;
 struct ChangeScene_tDD22FFF1928ADF9E18C9096739588228CB141A05;
 struct Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC;
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
 struct ChromaticAberration_t84EAB576773C3AD4DE77A13952B487F9DA10DA9F;
 struct ClampedFloatParameter_tCD9F742962EAA50F658BC77595AB025D9EF8DEB8;
 struct ClampedIntParameter_tAF77FC44E522B137734644AE2E3F702580033B8E;
@@ -33990,8 +33991,7 @@ struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBeha
 struct ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___objectToTeleport;
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___objectToTeleportRB;
-	float ___maxDistance;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___characterController;
 };
 struct EyeGazeInteraction_t4EAAB76C8910B2B25C4494294BAEDF8961147158  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {
@@ -47004,9 +47004,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8913[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8914[6] = 
 {
 	static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___rotateAngle)),static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___rotateSpeed)),static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___unlockItem)),static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___closedRotation)),static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___isOpen)),static_cast<int32_t>(offsetof(DoorRotator_tCBBB891038D63A3248FE08E7009DFDC71D3B2D94, ___rotateCoroutine)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8915[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8915[2] = 
 {
-	static_cast<int32_t>(offsetof(ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2, ___objectToTeleport)),static_cast<int32_t>(offsetof(ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2, ___objectToTeleportRB)),static_cast<int32_t>(offsetof(ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2, ___maxDistance)),};
+	static_cast<int32_t>(offsetof(ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2, ___objectToTeleport)),static_cast<int32_t>(offsetof(ExampleReturn_t5A33E4C793B7E665B61172F92B67D9F45075E7F2, ___characterController)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8916[2] = 
 {
 	static_cast<int32_t>(offsetof(Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146, ___count)),static_cast<int32_t>(offsetof(Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146, ___text)),};

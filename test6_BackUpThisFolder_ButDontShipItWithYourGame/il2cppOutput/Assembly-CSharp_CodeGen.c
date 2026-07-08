@@ -49,7 +49,6 @@ extern void U3CRotateToU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CRotateToU3Ed__9_System_Collections_IEnumerator_Reset_mF2285357A7A4596F51AE5017C5DC780D8F64662B (void);
 extern void U3CRotateToU3Ed__9_System_Collections_IEnumerator_get_Current_mCCDA22315F79E896CA8EF48DBBBE86A4BABD9937 (void);
 extern void ExampleReturn_Start_m71F1A85010639294C73528E13B92C8BA60B35447 (void);
-extern void ExampleReturn_Update_m3BCFA8239ECC8257D9ED48A4B9FE5970ED9FE410 (void);
 extern void ExampleReturn_Teleport_m8589AF2354DC0E8E80C8046C390E6CE1A0DB1F96 (void);
 extern void ExampleReturn__ctor_m32D9D830B17ACA19BCD31CCD4C3320CA9CB61AF9 (void);
 extern void Counter_Awake_m6B9B91A198011BF755F677B570620143DBCEB0D9 (void);
@@ -505,7 +504,7 @@ extern void CameraState_Translate_m537100F78BFC6E753D55D2BB7BA9A1747BE0AACC (voi
 extern void CameraState_LerpTowards_mC3FDCF5DB73898D2C102D9CB42C8C31CBAF8C4B6 (void);
 extern void CameraState_UpdateTransform_m3ECC2DEAEC9C1F7E7F085B9CC6DDA5A7678E5978 (void);
 extern void CameraState__ctor_mE887BCBB70F77A71CE15F91809C9161AEDC8DE65 (void);
-static Il2CppMethodPointer s_methodPointers[498] = 
+static Il2CppMethodPointer s_methodPointers[497] = 
 {
 	BatHit_OnCollisionEnter_mE4CE87613974B6559566C4A165B612F9A15DFFB2,
 	BatHit__ctor_mEF1FD89269D00828D44C2E73861CDBBE7C546F54,
@@ -549,7 +548,6 @@ static Il2CppMethodPointer s_methodPointers[498] =
 	U3CRotateToU3Ed__9_System_Collections_IEnumerator_Reset_mF2285357A7A4596F51AE5017C5DC780D8F64662B,
 	U3CRotateToU3Ed__9_System_Collections_IEnumerator_get_Current_mCCDA22315F79E896CA8EF48DBBBE86A4BABD9937,
 	ExampleReturn_Start_m71F1A85010639294C73528E13B92C8BA60B35447,
-	ExampleReturn_Update_m3BCFA8239ECC8257D9ED48A4B9FE5970ED9FE410,
 	ExampleReturn_Teleport_m8589AF2354DC0E8E80C8046C390E6CE1A0DB1F96,
 	ExampleReturn__ctor_m32D9D830B17ACA19BCD31CCD4C3320CA9CB61AF9,
 	Counter_Awake_m6B9B91A198011BF755F677B570620143DBCEB0D9,
@@ -1006,7 +1004,7 @@ static Il2CppMethodPointer s_methodPointers[498] =
 	CameraState_UpdateTransform_m3ECC2DEAEC9C1F7E7F085B9CC6DDA5A7678E5978,
 	CameraState__ctor_mE887BCBB70F77A71CE15F91809C9161AEDC8DE65,
 };
-static const int32_t s_InvokerIndices[498] = 
+static const int32_t s_InvokerIndices[497] = 
 {
 	12133,
 	16074,
@@ -1049,7 +1047,6 @@ static const int32_t s_InvokerIndices[498] =
 	15834,
 	16074,
 	15834,
-	16074,
 	16074,
 	16074,
 	16074,
@@ -1511,7 +1508,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	498,
+	497,
 	s_methodPointers,
 	0,
 	NULL,

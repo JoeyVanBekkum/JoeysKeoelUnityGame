@@ -6499,28 +6499,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1355314272}
   m_LocalEulerAnglesHint: {x: -0.015, y: 90, z: 90}
---- !u!1 &1691506794 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3051252171744900154, guid: 25e57e99e557abb409414807d0e2f5fe, type: 3}
-  m_PrefabInstance: {fileID: 2289613208802964731}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1691506795 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3051252171744900153, guid: 25e57e99e557abb409414807d0e2f5fe, type: 3}
   m_PrefabInstance: {fileID: 2289613208802964731}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1691506804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691506794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a41f435a5fc6ca4f9086bda1bcce9ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!4 &1732183202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8078865290813457229, guid: 65c2ec8a7180e3243b0f6d48a3945116, type: 3}
@@ -6533,7 +6516,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599791018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbb242eac102668469d8c0785d26aca9, type: 3}
   m_Name: 
@@ -6545,7 +6528,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599791018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6311b5df964e7874797f18cbfe4c7b8a, type: 3}
   m_Name: 
@@ -8095,7 +8078,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077101741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3863670fa612474eade3180c7b66845, type: 3}
   m_Name: 
@@ -9150,9 +9133,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 553015162}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3051252171744900154, guid: 25e57e99e557abb409414807d0e2f5fe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1691506804}
     - targetCorrespondingSourceObject: {fileID: 8895818830673014321, guid: 25e57e99e557abb409414807d0e2f5fe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1895508217}
